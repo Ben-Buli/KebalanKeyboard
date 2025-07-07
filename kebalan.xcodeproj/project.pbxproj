@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C107C5602DEC7837009F8B96 /* KebalanKeyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C107C5592DEC7837009F8B96 /* KebalanKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C107C5392DEC77EA009F8B96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C107C5202DEC77E9009F8B96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C107C5272DEC77E9009F8B96;
+			remoteInfo = "Kebalan Keyboard";
+		};
+		C107C5432DEC77EA009F8B96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C107C5202DEC77E9009F8B96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C107C5272DEC77E9009F8B96;
+			remoteInfo = "Kebalan Keyboard";
+		};
+		C107C55E2DEC7837009F8B96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C107C5202DEC77E9009F8B96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C107C5582DEC7837009F8B96;
+			remoteInfo = KebalanKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C107C5652DEC7837009F8B96 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C107C5602DEC7837009F8B96 /* KebalanKeyboard.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C107C5282DEC77E9009F8B96 /* kebalan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kebalan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C107C5382DEC77EA009F8B96 /* kebalanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kebalanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C107C5422DEC77EA009F8B96 /* kebalanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kebalanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C107C5592DEC7837009F8B96 /* KebalanKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KebalanKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C107C5C52DEC8B65009F8B96 /* Exceptions for "KebalanKeyboard" folder in "KebalanKeyboard" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C107C5582DEC7837009F8B96 /* KebalanKeyboard */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C107C52A2DEC77E9009F8B96 /* Kebalan Keyboard */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Kebalan Keyboard";
+			sourceTree = "<group>";
+		};
+		C107C53B2DEC77EA009F8B96 /* Kebalan KeyboardTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Kebalan KeyboardTests";
+			sourceTree = "<group>";
+		};
+		C107C5452DEC77EA009F8B96 /* Kebalan KeyboardUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Kebalan KeyboardUITests";
+			sourceTree = "<group>";
+		};
+		C107C55A2DEC7837009F8B96 /* KebalanKeyboard */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C107C5C52DEC8B65009F8B96 /* Exceptions for "KebalanKeyboard" folder in "KebalanKeyboard" target */,
+			);
+			path = KebalanKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C107C5252DEC77E9009F8B96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107C5352DEC77EA009F8B96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107C53F2DEC77EA009F8B96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107C5562DEC7837009F8B96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C107C51F2DEC77E9009F8B96 = {
+			isa = PBXGroup;
+			children = (
+				C107C52A2DEC77E9009F8B96 /* Kebalan Keyboard */,
+				C107C53B2DEC77EA009F8B96 /* Kebalan KeyboardTests */,
+				C107C5452DEC77EA009F8B96 /* Kebalan KeyboardUITests */,
+				C107C55A2DEC7837009F8B96 /* KebalanKeyboard */,
+				C107C5292DEC77E9009F8B96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C107C5292DEC77E9009F8B96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C107C5282DEC77E9009F8B96 /* kebalan.app */,
+				C107C5382DEC77EA009F8B96 /* kebalanTests.xctest */,
+				C107C5422DEC77EA009F8B96 /* kebalanUITests.xctest */,
+				C107C5592DEC7837009F8B96 /* KebalanKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C107C5272DEC77E9009F8B96 /* kebalan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C107C54C2DEC77EA009F8B96 /* Build configuration list for PBXNativeTarget "kebalan" */;
+			buildPhases = (
+				C107C5242DEC77E9009F8B96 /* Sources */,
+				C107C5252DEC77E9009F8B96 /* Frameworks */,
+				C107C5262DEC77E9009F8B96 /* Resources */,
+				C107C5652DEC7837009F8B96 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C107C55F2DEC7837009F8B96 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C107C52A2DEC77E9009F8B96 /* Kebalan Keyboard */,
+			);
+			name = kebalan;
+			packageProductDependencies = (
+			);
+			productName = "Kebalan Keyboard";
+			productReference = C107C5282DEC77E9009F8B96 /* kebalan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C107C5372DEC77EA009F8B96 /* kebalanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C107C54F2DEC77EA009F8B96 /* Build configuration list for PBXNativeTarget "kebalanTests" */;
+			buildPhases = (
+				C107C5342DEC77EA009F8B96 /* Sources */,
+				C107C5352DEC77EA009F8B96 /* Frameworks */,
+				C107C5362DEC77EA009F8B96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C107C53A2DEC77EA009F8B96 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C107C53B2DEC77EA009F8B96 /* Kebalan KeyboardTests */,
+			);
+			name = kebalanTests;
+			packageProductDependencies = (
+			);
+			productName = "Kebalan KeyboardTests";
+			productReference = C107C5382DEC77EA009F8B96 /* kebalanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C107C5412DEC77EA009F8B96 /* kebalanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C107C5522DEC77EA009F8B96 /* Build configuration list for PBXNativeTarget "kebalanUITests" */;
+			buildPhases = (
+				C107C53E2DEC77EA009F8B96 /* Sources */,
+				C107C53F2DEC77EA009F8B96 /* Frameworks */,
+				C107C5402DEC77EA009F8B96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C107C5442DEC77EA009F8B96 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C107C5452DEC77EA009F8B96 /* Kebalan KeyboardUITests */,
+			);
+			name = kebalanUITests;
+			packageProductDependencies = (
+			);
+			productName = "Kebalan KeyboardUITests";
+			productReference = C107C5422DEC77EA009F8B96 /* kebalanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C107C5582DEC7837009F8B96 /* KebalanKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C107C5622DEC7837009F8B96 /* Build configuration list for PBXNativeTarget "KebalanKeyboard" */;
+			buildPhases = (
+				C107C5552DEC7837009F8B96 /* Sources */,
+				C107C5562DEC7837009F8B96 /* Frameworks */,
+				C107C5572DEC7837009F8B96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C107C55A2DEC7837009F8B96 /* KebalanKeyboard */,
+			);
+			name = KebalanKeyboard;
+			packageProductDependencies = (
+			);
+			productName = KebalanKeyboard;
+			productReference = C107C5592DEC7837009F8B96 /* KebalanKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C107C5202DEC77E9009F8B96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C107C5272DEC77E9009F8B96 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C107C5372DEC77EA009F8B96 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C107C5272DEC77E9009F8B96;
+					};
+					C107C5412DEC77EA009F8B96 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C107C5272DEC77E9009F8B96;
+					};
+					C107C5582DEC7837009F8B96 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = C107C5232DEC77E9009F8B96 /* Build configuration list for PBXProject "kebalan" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hant",
+			);
+			mainGroup = C107C51F2DEC77E9009F8B96;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C107C5292DEC77E9009F8B96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C107C5272DEC77E9009F8B96 /* kebalan */,
+				C107C5372DEC77EA009F8B96 /* kebalanTests */,
+				C107C5412DEC77EA009F8B96 /* kebalanUITests */,
+				C107C5582DEC7837009F8B96 /* KebalanKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C107C5262DEC77E9009F8B96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107C5362DEC77EA009F8B96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107C5402DEC77EA009F8B96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107C5572DEC7837009F8B96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C107C5242DEC77E9009F8B96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107C5342DEC77EA009F8B96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107C53E2DEC77EA009F8B96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107C5552DEC7837009F8B96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C107C53A2DEC77EA009F8B96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C107C5272DEC77E9009F8B96 /* kebalan */;
+			targetProxy = C107C5392DEC77EA009F8B96 /* PBXContainerItemProxy */;
+		};
+		C107C5442DEC77EA009F8B96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C107C5272DEC77E9009F8B96 /* kebalan */;
+			targetProxy = C107C5432DEC77EA009F8B96 /* PBXContainerItemProxy */;
+		};
+		C107C55F2DEC7837009F8B96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C107C5582DEC7837009F8B96 /* KebalanKeyboard */;
+			targetProxy = C107C55E2DEC7837009F8B96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C107C54A2DEC77EA009F8B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C107C54B2DEC77EA009F8B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C107C54D2DEC77EA009F8B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kebalan Keyboard/Preview Content\"";
+				DEVELOPMENT_TEAM = Q4C6BSB74K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tibuli.Kebalan-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C107C54E2DEC77EA009F8B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kebalan Keyboard/Preview Content\"";
+				DEVELOPMENT_TEAM = Q4C6BSB74K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tibuli.Kebalan-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C107C5502DEC77EA009F8B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4C6BSB74K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tibuli.Kebalan-KeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kebalan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kebalan";
+			};
+			name = Debug;
+		};
+		C107C5512DEC77EA009F8B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4C6BSB74K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tibuli.Kebalan-KeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kebalan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kebalan";
+			};
+			name = Release;
+		};
+		C107C5532DEC77EA009F8B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4C6BSB74K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tibuli.Kebalan-KeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kebalan Keyboard";
+			};
+			name = Debug;
+		};
+		C107C5542DEC77EA009F8B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4C6BSB74K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tibuli.Kebalan-KeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kebalan Keyboard";
+			};
+			name = Release;
+		};
+		C107C5632DEC7837009F8B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4C6BSB74K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/KebalanKeyboard/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = KebalanKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tibuli.Kebalan-Keyboard.KebalanKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C107C5642DEC7837009F8B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4C6BSB74K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/KebalanKeyboard/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = KebalanKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tibuli.Kebalan-Keyboard.KebalanKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C107C5232DEC77E9009F8B96 /* Build configuration list for PBXProject "kebalan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C107C54A2DEC77EA009F8B96 /* Debug */,
+				C107C54B2DEC77EA009F8B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C107C54C2DEC77EA009F8B96 /* Build configuration list for PBXNativeTarget "kebalan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C107C54D2DEC77EA009F8B96 /* Debug */,
+				C107C54E2DEC77EA009F8B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C107C54F2DEC77EA009F8B96 /* Build configuration list for PBXNativeTarget "kebalanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C107C5502DEC77EA009F8B96 /* Debug */,
+				C107C5512DEC77EA009F8B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C107C5522DEC77EA009F8B96 /* Build configuration list for PBXNativeTarget "kebalanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C107C5532DEC77EA009F8B96 /* Debug */,
+				C107C5542DEC77EA009F8B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C107C5622DEC7837009F8B96 /* Build configuration list for PBXNativeTarget "KebalanKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C107C5632DEC7837009F8B96 /* Debug */,
+				C107C5642DEC7837009F8B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C107C5202DEC77E9009F8B96 /* Project object */;
+}
