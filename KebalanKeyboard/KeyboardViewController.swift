@@ -12,6 +12,14 @@ class KeyboardViewController: UIInputViewController {
         ["kua", "patanq", "matiw"]
     ]
 
+    let mainLetters: [[String]] = [
+    ["q", "w", "e", "R", "t", "y", "u", "i", "p"],
+    ["a", "s", "d", "g", "ng", "h", "k", "l"],
+    ["z", "b", "n", "m"]
+]
+
+let specialKeys: [String] = ["wny", "kua", "patanq", "matiw", "⌫"]
+
     var isDarkModeEnabled: Bool = false // 手動控制黑暗模式
 
     override func viewDidLoad() {
@@ -71,6 +79,11 @@ class KeyboardViewController: UIInputViewController {
 
                 // 增加按鈕高度到原來的 1.2 倍
                 button.heightAnchor.constraint(equalToConstant: button.intrinsicContentSize.height * 1.2).isActive = true
+
+if mainLetters.contains(where: { $0.contains(key) }) {
+                // 設置統一的按鈕寬度
+                button.widthAnchor.constraint(equalToConstant: 30).isActive = true
+                } 
 
                 button.addTarget(self, action: #selector(keyTapped(_:)), for: .touchUpInside)
                 rowStack.addArrangedSubview(button)
